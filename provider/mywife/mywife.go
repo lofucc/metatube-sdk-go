@@ -9,9 +9,9 @@ import (
 
 	"github.com/gocolly/colly/v2"
 
-	"github.com/metatube-community/metatube-sdk-go/model"
-	"github.com/metatube-community/metatube-sdk-go/provider"
-	"github.com/metatube-community/metatube-sdk-go/provider/internal/scraper"
+	"github.com/lofucc/metatube-sdk-go/model"
+	"github.com/lofucc/metatube-sdk-go/provider"
+	"github.com/lofucc/metatube-sdk-go/provider/internal/scraper"
 )
 
 var _ provider.MovieProvider = (*MyWife)(nil)

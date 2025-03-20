@@ -12,8 +12,8 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/metatube-community/metatube-sdk-go/model"
-	mt "github.com/metatube-community/metatube-sdk-go/provider"
+	"github.com/lofucc/metatube-sdk-go/model"
+	mt "github.com/lofucc/metatube-sdk-go/provider"
 )
 
 type internalTestSuite struct {

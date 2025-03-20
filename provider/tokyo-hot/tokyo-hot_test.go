@@ -3,7 +3,7 @@ package tokyohot
 import (
 	"testing"
 
-	"github.com/metatube-community/metatube-sdk-go/provider/internal/testkit"
+	"github.com/lofucc/metatube-sdk-go/provider/internal/testkit"
 )
 
 func TestTokyoHot_GetMovieInfoByID(t *testing.T) {

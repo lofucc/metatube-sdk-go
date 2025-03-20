@@ -9,7 +9,7 @@ import (
 	"github.com/docker/go-units"
 	"github.com/gen2brain/jpegli"
 
-	"github.com/metatube-community/metatube-sdk-go/common/bufferpool"
+	"github.com/lofucc/metatube-sdk-go/common/bufferpool"
 )
 
 var _pool = bufferpool.New(256 * units.KiB)

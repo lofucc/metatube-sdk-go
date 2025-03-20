@@ -10,8 +10,8 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/metatube-community/metatube-sdk-go/common/fetch"
-	"github.com/metatube-community/metatube-sdk-go/translate"
+	"github.com/lofucc/metatube-sdk-go/common/fetch"
+	"github.com/lofucc/metatube-sdk-go/translate"
 )
 
 var _ translate.Translator = (*Baidu)(nil)

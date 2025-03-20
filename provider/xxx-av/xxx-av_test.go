@@ -3,7 +3,7 @@ package xxx_av
 import (
 	"testing"
 
-	"github.com/metatube-community/metatube-sdk-go/provider/internal/testkit"
+	"github.com/lofucc/metatube-sdk-go/provider/internal/testkit"
 )
 
 func TestXXXAV_GetMovieInfoByID(t *testing.T) {

@@ -7,10 +7,10 @@ import (
 
 	"github.com/gin-gonic/gin"
 
-	"github.com/metatube-community/metatube-sdk-go/common/parser"
-	"github.com/metatube-community/metatube-sdk-go/engine"
-	"github.com/metatube-community/metatube-sdk-go/model"
-	mt "github.com/metatube-community/metatube-sdk-go/provider"
+	"github.com/lofucc/metatube-sdk-go/common/parser"
+	"github.com/lofucc/metatube-sdk-go/engine"
+	"github.com/lofucc/metatube-sdk-go/model"
+	mt "github.com/lofucc/metatube-sdk-go/provider"
 )
 
 func redirect(app *engine.Engine) gin.HandlerFunc {

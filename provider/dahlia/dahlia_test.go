@@ -3,7 +3,7 @@ package dahlia
 import (
 	"testing"
 
-	"github.com/metatube-community/metatube-sdk-go/provider/internal/testkit"
+	"github.com/lofucc/metatube-sdk-go/provider/internal/testkit"
 )
 
 func TestDAHLIA_GetMovieInfoByID(t *testing.T) {

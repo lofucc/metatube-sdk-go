@@ -5,7 +5,7 @@ import (
 
 	"github.com/gin-gonic/gin"
 
-	"github.com/metatube-community/metatube-sdk-go/engine"
+	"github.com/lofucc/metatube-sdk-go/engine"
 )
 
 type infoType uint8

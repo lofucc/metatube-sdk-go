@@ -10,11 +10,11 @@ import (
 	"github.com/gocolly/colly/v2"
 	"golang.org/x/net/html"
 
-	"github.com/metatube-community/metatube-sdk-go/common/number"
-	"github.com/metatube-community/metatube-sdk-go/common/parser"
-	"github.com/metatube-community/metatube-sdk-go/model"
-	"github.com/metatube-community/metatube-sdk-go/provider"
-	"github.com/metatube-community/metatube-sdk-go/provider/internal/scraper"
+	"github.com/lofucc/metatube-sdk-go/common/number"
+	"github.com/lofucc/metatube-sdk-go/common/parser"
+	"github.com/lofucc/metatube-sdk-go/model"
+	"github.com/lofucc/metatube-sdk-go/provider"
+	"github.com/lofucc/metatube-sdk-go/provider/internal/scraper"
 )
 
 var (

@@ -9,11 +9,11 @@ import (
 	"github.com/gin-gonic/gin"
 	"github.com/gin-gonic/gin/render"
 
-	R "github.com/metatube-community/metatube-sdk-go/constant"
-	"github.com/metatube-community/metatube-sdk-go/engine"
-	"github.com/metatube-community/metatube-sdk-go/imageutil"
-	"github.com/metatube-community/metatube-sdk-go/imageutil/badge"
-	mt "github.com/metatube-community/metatube-sdk-go/provider"
+	R "github.com/lofucc/metatube-sdk-go/constant"
+	"github.com/lofucc/metatube-sdk-go/engine"
+	"github.com/lofucc/metatube-sdk-go/imageutil"
+	"github.com/lofucc/metatube-sdk-go/imageutil/badge"
+	mt "github.com/lofucc/metatube-sdk-go/provider"
 )
 
 type imageType uint8

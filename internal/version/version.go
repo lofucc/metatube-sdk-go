@@ -17,7 +17,7 @@ var (
 // go.mod when using this pkg as a third-party module.
 func version() string {
 	const (
-		module = "github.com/metatube-community/metatube-sdk-go"
+		module = "github.com/lofucc/metatube-sdk-go"
 	)
 	for _, mod := range Modules() {
 		if mod.Path == module {

@@ -4,8 +4,8 @@ import (
 	"regexp"
 	"strings"
 
-	"github.com/metatube-community/metatube-sdk-go/provider"
-	"github.com/metatube-community/metatube-sdk-go/provider/h0930/core"
+	"github.com/lofucc/metatube-sdk-go/provider"
+	"github.com/lofucc/metatube-sdk-go/provider/h0930/core"
 )
 
 var _ provider.MovieProvider = (*H4610)(nil)

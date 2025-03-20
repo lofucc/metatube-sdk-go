@@ -7,7 +7,7 @@ import (
 
 	translator "github.com/zijiren233/google-translator"
 
-	"github.com/metatube-community/metatube-sdk-go/translate"
+	"github.com/lofucc/metatube-sdk-go/translate"
 )
 
 var _ translate.Translator = (*GoogleFree)(nil)

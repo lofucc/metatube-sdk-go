@@ -15,9 +15,9 @@ import (
 	"golang.org/x/net/html"
 	dt "gorm.io/datatypes"
 
-	"github.com/metatube-community/metatube-sdk-go/common/parser"
-	"github.com/metatube-community/metatube-sdk-go/model"
-	"github.com/metatube-community/metatube-sdk-go/provider/internal/scraper"
+	"github.com/lofucc/metatube-sdk-go/common/parser"
+	"github.com/lofucc/metatube-sdk-go/model"
+	"github.com/lofucc/metatube-sdk-go/provider/internal/scraper"
 )
 
 type Core struct {

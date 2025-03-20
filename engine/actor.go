@@ -8,12 +8,12 @@ import (
 
 	"gorm.io/gorm/clause"
 
-	"github.com/metatube-community/metatube-sdk-go/collections"
-	"github.com/metatube-community/metatube-sdk-go/common/comparer"
-	"github.com/metatube-community/metatube-sdk-go/common/parser"
-	"github.com/metatube-community/metatube-sdk-go/model"
-	mt "github.com/metatube-community/metatube-sdk-go/provider"
-	"github.com/metatube-community/metatube-sdk-go/provider/gfriends"
+	"github.com/lofucc/metatube-sdk-go/collections"
+	"github.com/lofucc/metatube-sdk-go/common/comparer"
+	"github.com/lofucc/metatube-sdk-go/common/parser"
+	"github.com/lofucc/metatube-sdk-go/model"
+	mt "github.com/lofucc/metatube-sdk-go/provider"
+	"github.com/lofucc/metatube-sdk-go/provider/gfriends"
 )
 
 func (e *Engine) searchActorFromDB(keyword string, provider mt.Provider) (results []*model.ActorSearchResult, err error) {
